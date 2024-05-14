@@ -56,7 +56,7 @@ function setClock() {
     currentDate.getHours() == 0 ? (currentDate.getMinutes() == 0 ? dateur() : null) : null
 
     const secRatio = (Date.now() / 10000) * 60;
-    const minutesRatio = currentDate.getMinutes()
+    const minutesRatio = currentDate.getMinutes() + ((secRatio % 360)) / 360
     const hr = currentDate.getHours()
     const hoursRatio = ((currentDate.getMinutes()) / 24) + ((hr >= 12) ? (hr - 12) * 2.5 : (hr + 12) * 2.5)
 
