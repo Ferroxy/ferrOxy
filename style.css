@@ -77,11 +77,11 @@ body {
     height: 50%;
     left: 25%;
     bottom: 25%;
-    background-color: rgb(194 218 32 / 45%);
+    /* background-color: rgb(194 218 32 / 45%); */
     /* border: 3px solid #ffffdc85; */
     border-radius: 50%;
     cursor: pointer;
-    animation: transparence 12s ease infinite;
+    /* animation: transparence 12s ease infinite; */
 }
 
 .clock .number {
@@ -277,11 +277,11 @@ body {
 
 .datar {
     position: absolute;
-    left: 42.5%;
+    left: 40.5%;
     top: 28.7%;
+    font-size: 1.15em;
     text-align: center;
     color: #00BCD4;
-    /* background-color: #08361524; */
     padding: 2px 21px;
     border: 1px solid #d84a2f7a;
     border-radius: 1.5em;
@@ -289,12 +289,11 @@ body {
 
 .datfr {
     position: absolute;
-    left: 42.5%;
+    left: 40.5%;
     top: 67.7%;
-    font-size: .85em;
+    font-size: 1.05rem;
     text-align: center;
     color: #CDDC39;
-    /* background-color: #08361524; */
     padding: 2px 21px;
     border: 1px solid #d84a2f7a;
     border-radius: 1.5em;
@@ -619,21 +618,6 @@ body {
     /* background-color: #d66719; */
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
     /* z-index: -1; */
-}
-
-.clock .annee {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 48.4%;
-    left: 47.3%;
-    border-radius: 50%;
-    color: #9caee6;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: bold;
-    z-index: 1;
-    animation: transparence 2s ease-in-out infinite;
 }
 
 .clock::after {
