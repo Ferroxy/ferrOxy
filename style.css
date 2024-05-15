@@ -47,11 +47,11 @@ body {
     height: 100%;
     border-radius: 50%;
     opacity: 0.12;
-    transform: rotate(-2.3deg);
+    transform: rotate(-1.5deg);
 }
 
 .clock .afond.bis {
-    transform: rotate(13deg);
+    transform: rotate(13.5deg);
     opacity: 0.25;
 }
 
