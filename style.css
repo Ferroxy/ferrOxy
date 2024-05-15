@@ -248,7 +248,7 @@ body {
 .clock .youm {
     font-size: 1.6em;
     color: #e54a12;
-    transform: rotate(30deg);
+    transform: rotate(38deg);
 }
 
 .clock .jour {
@@ -260,7 +260,7 @@ body {
 .clock .dday {
     color: #5cc9f7;
     border-radius: 50%;
-    transform: rotate(150deg);
+    transform: rotate(142deg);
 }
 
 .datar {
