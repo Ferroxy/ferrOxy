@@ -10,8 +10,8 @@ const shahr = ["يناير", "فبراير", "مارس", "أبريل", "مايو
 const dtArab = document.querySelector('.datar')
 const dtFr = document.querySelector('.datfr')
 
-// const hourHand = document.querySelector('[data-hour-hand]')
-const pointHand = document.querySelector('[data-point]')
+const hourHand = document.querySelector('[data-hour-hand]')
+// const pointHand = document.querySelector('[data-point]')
 const minuteHand = document.querySelector('[data-minute-hand]')
 const secondHand = document.querySelector('[data-second-hand]')
 
@@ -65,8 +65,8 @@ function setClock() {
 
     setRotation(secondHand, secRatio)
     setRotation(minuteHand, minutesRatio)
-    // setRotation(hourHand, hoursRatio)
-    setRotation(pointHand, hoursRatio)
+    setRotation(hourHand, hoursRatio)
+    // setRotation(pointHand, hoursRatio)
     setRotation(jjr, jjRatio)
     setRotation(mm, (mmRatio - 90))
     setRotation(jj, (mmRatio - 90))
