@@ -5,7 +5,7 @@ const jours = ["الأحد", "الإثنين", "الثلثاء", "الأربعا
 
 // const mois = ["جانفي", "فيفري", "مارس", "أفريل", "مايو", "جوان", "جويلية", "أوت", "سبتمبر", "أوكتبر", "نوفمبر", "ديسمبر"]
 
-const shahr = ["يناير", "فبراير", "مارس", "أبريل", "مايو", "جوان", "جويلية", "أوغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"]
+// const shahr = ["يناير", "فبراير", "مارس", "أبريل", "مايو", "جوان", "جويلية", "أوغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"]
 
 const dtArab = document.querySelector('.datar')
 const dtFr = document.querySelector('.datfr')
@@ -91,7 +91,8 @@ function dateur() {
     youm.innerHTML = (jours[event.getDay()])
     jour.innerHTML = (jours[event.getDay() + 7])
     dday.innerHTML = (jours[event.getDay() + 14])
-    mm.innerHTML = shahr[event.getMonth()]
+    // mm.innerHTML = shahr[event.getMonth()]
+    mm.innerHTML = event.toLocaleDateString('ar-EG', options).split(' ')[1]
     jj.innerHTML = event.toString().split(' ')[2]
 
     jjr.innerHTML = (event.toString()[8] == 0) ?
