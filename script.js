@@ -100,5 +100,5 @@ function dateur() {
         : chfr[event.toString()[8]] + chfr[event.toString()[9]]
 
     dtArab.innerHTML = event.toLocaleDateString('ar-EG', options)
-    dtFr.innerHTML = event.toLocaleDateString('fr-EG', options)
+    // dtFr.innerHTML = event.toLocaleDateString('fr-EG', options)
 }

@@ -277,14 +277,15 @@ body {
 
 .datfr {
     position: absolute;
-    left: 40.5%;
-    top: 67.7%;
+    left: 41.8%;
+    top: 67.2%;
     font-size: 1.05rem;
     text-align: center;
-    color: #CDDC39;
-    padding: 2px 21px;
+    color: #d06130;
+    padding: 2px 20px;
     border: 1px solid #d84a2f7a;
     border-radius: 1.5em;
+    /* background-color: #3d1861; */
 }
 
 .calend {
