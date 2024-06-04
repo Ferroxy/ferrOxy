@@ -191,7 +191,7 @@ body {
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-.clock::after {
+/* .clock::after {
     --contenu: 'ferh@t';
     content: var(--contenu);
     position: absolute;
@@ -207,7 +207,7 @@ body {
     font-weight: lighter;
     padding: 12px 0px;
     transform: translate(-50%, -50%);
-}
+} */
 
 /* .clock .txt {
     position: absolute;
