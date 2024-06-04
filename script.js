@@ -1,4 +1,4 @@
-setInterval(setClock, 60)
+setInterval(setClock, 1)
 
 const chfr = ["٠", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"]
 const jours = ["الأحد", "الإثنين", "الثلثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
