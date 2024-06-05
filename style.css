@@ -187,7 +187,7 @@ body {
 .clock .hand.second {
     width: 3px;
     height: 33.7%;
-    background-color: #eadf6bb7;
+    background-color: rgb(234 223 107);
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
