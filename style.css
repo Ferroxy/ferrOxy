@@ -58,8 +58,8 @@ body {
     font-size: 60px;
     border: 1px solid #3590d8;
     border-radius: 50%;
-    opacity: .7;
-    animation: pivot 900s infinite;
+    opacity: .8;
+    animation: pivot 600s infinite;
 }
 
 .clock .youm,
@@ -174,24 +174,25 @@ body {
 .clock .hand.hour {
     width: 19px;
     height: 41%;
-    /* background-color: #a4aac6; */
+    background-color: #4b96d3aa;
     border: 3px solid #d66719
 }
 
 .clock .hand.minute {
     width: 15px;
     height: 30%;
+    background-color: #d668196c;
     border: 3px solid #3590d8;
 }
 
 .clock .hand.second {
     width: 3px;
-    height: 33.7%;
-    background-color: rgb(234 223 107);
+    height: 34%;
+    background-color: rgb(234 223 107 / 72%);
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-/* .clock::after {
+.clock::after {
     --contenu: 'ferh@t';
     content: var(--contenu);
     position: absolute;
@@ -200,14 +201,14 @@ body {
     top: 50%;
     left: 50%;
     border-radius: 50%;
-    color: #000000;
-    background-color: #f6e772e8;
+    color: #ff0000;
+    background-color: #cabf6ee8;
     text-align: center;
     font-size: 0.7em;
     font-weight: lighter;
     padding: 12px 0px;
     transform: translate(-50%, -50%);
-} */
+}
 
 /* .clock .txt {
     position: absolute;
@@ -223,6 +224,6 @@ body {
 
 @keyframes pivot {
     to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
