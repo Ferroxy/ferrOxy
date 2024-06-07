@@ -167,6 +167,7 @@ body {
     left: 50%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 1px solid rgb(225, 225, 111);
     transform-origin: bottom;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 6deg));
 
@@ -177,20 +178,20 @@ body {
     width: 16px;
     height: 41%;
     background-color: #fa8b3ca7;
-    border: 1px solid #35c5d8;
+    /* border: 1px solid #35c5d8; */
 }
 
 .clock .hand.minute {
     width: 13px;
     height: 30%;
     background-color: #4b96d3aa;
-    border: 1px solid #f18334
+    /* border: 1px solid #f18334 */
 }
 
 .clock .hand.second {
     width: 4px;
-    height: 34%;
-    background-color: rgb(234 223 107 / 72%);
+    height: 24.7%;
+    background-color: rebeccapurple;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
